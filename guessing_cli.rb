@@ -5,7 +5,7 @@ def run_guessing_game
     players_input = gets.chomp
     rand_number = rand(1..10).to_s
     
-    case players_input
+    case players_input.chomp
       when rand_number
       puts "You guessed the correct number!"
       when "exit"
