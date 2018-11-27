@@ -5,10 +5,11 @@ def run_guessing_game
     players_input = gets.chomp
     rand_number = rand(1..10).to_s
     case players_input
-      when 
+      when rand_number
       puts "You guessed the correct number!"
-    elsif players_input == "exit"
-      puts "Thanks for playing!"
+      when "exit"
+       puts "Thanks for playing!"
+       break
     else
       puts "The computer guessed: #{rand_number}!"
     end
