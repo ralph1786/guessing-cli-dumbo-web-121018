@@ -10,8 +10,8 @@ def run_guessing_game
       when "exit"
        puts "Thanks for playing!"
        break
-    else
-      puts "The computer guessed: #{rand_number}!"
+      else
+        puts "The computer guessed: #{rand_number}!"
     end
   end
 end
