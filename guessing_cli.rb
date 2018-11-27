@@ -5,5 +5,7 @@ def run_guessing_game
   players_input = gets.chomp
   rand_number = rand(1..10).to_s
   if players_input = rand_number
-    puts ""
+    puts "You guessed the correct number!"
+  elsif players_input == "exit"
+  
 end
