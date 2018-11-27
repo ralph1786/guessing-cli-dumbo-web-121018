@@ -1,21 +1,21 @@
-def run_guessing_game
-  players_input = ""
-  while players_input
-    puts "Please guess a number between 1 and 10:"
-    players_input = gets.chomp
-    rand_number = rand(1..10).to_s
+# def run_guessing_game
+#   players_input = ""
+#   while players_input
+#     puts "Please guess a number between 1 and 10:"
+#     players_input = gets.chomp
+#     rand_number = rand(1..10).to_s
     
-    case players_input.chomp
-      when rand_number
-      puts "You guessed the correct number!"
-      when "exit"
-       puts "Thanks for playing!"
-      break
-      else
-        puts "The computer guessed: #{rand_number}!"
-    end
-  end
-end
+#     case players_input.chomp
+#       when rand_number
+#       puts "You guessed the correct number!"
+#       when "exit"
+#       puts "Thanks for playing!"
+#       break
+#       else
+#         puts "The computer guessed: #{rand_number}!"
+#     end
+#   end
+# end
 
 
 # def run_guessing_game
