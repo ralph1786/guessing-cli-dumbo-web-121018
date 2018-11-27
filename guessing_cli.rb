@@ -12,7 +12,7 @@ def run_guessing_game
         puts "Goodbye"
       break
       else
-        puts "The computer guessed: #{rand_number}!"
+        puts "The computer guessed #{rand_number}."
     end
   end
 end
